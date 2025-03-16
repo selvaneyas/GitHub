@@ -64,5 +64,7 @@ link
 
 push
 9. git push <origin> <main>
+    
+   git push <origin> <main> --force
 
-10. end
+10. git pull <origin> <main>
