@@ -14,6 +14,8 @@ Git Basic Commands
 - clone
 - commit msg
 - branch
+- git add remote origin url
+- push
 
 normal -> git file (consider)
 terminal -> (ctrl+`)
@@ -26,7 +28,14 @@ git file -> staging area
 - Single file
 - More file
 
+git commit --m "<msg here>"
 
+branch
+******
+master branch
+main branch
+
+git branch --m main
 
 Commands Prompt (CMD)
 =====================
@@ -41,4 +50,17 @@ Single file
 More file
 4. b) git add .
 
+commit message
 5. git commit --m "file added"
+
+branch
+6. git branch
+
+change branch
+7. git branch -m main
+
+link
+8. git remote add origin https://github.com/selvaneyas/GitHub.git
+
+push
+9. git push <origin> <main>
