@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Basics</title>
+
+    <!-- Include Highlight.js CSS & JS-->
+    <!-- Prism.js Theme -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    
+    <!-- Prism.js Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+    <!-- Language Components -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+        }
+        #content { 
+            border: 1px solid #ddd;
+            padding: 20px; 
+            border-radius: 10px; 
+        }
+        h1{
+            text-align: center;
+            color: green;
+            box-shadow: 10px 10px 10px 10px #888888;
+        }
+
+        h2{
+            text-align: center;
+            color: rgb(41, 41, 44);
+        }
+        div{
+            text-align: left;
+            box-shadow: 10px 10px 10px 10px #888888;
+        }
+        ul{
+            text-align: left;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Welcome To GitHub Basics</h1><br>
+
+    <div>
+        <h2><b>✅ Why Use Git & GitHub?</b></h2>
+        <ul>
+            <li>🔄 Track changes in code.</li>
+            <li>👨‍💻 Collaborate with multiple developers.</li>
+            <li>⏳ Rollback to previous versions.</li>
+            <li>🚀 Deploy and manage projects.</li>
+            <li>🌐 Open-source contributions.</li>
+        </ul><br>
+    </div>
+
+    <!--Git Commands Example-->
+    <div>
+        <h2>Git Commands Example</h2>
+        <pre>
+            <code class="language-bash">
+        git init
+        git add .
+        git commit -m "Initial commit"
+        git push origin main
+            </code>
+        </pre>
+    </div>
+
+    <!--Python Code-->
+    <div>
+        <h2>Python Code</h2>
+        <pre>
+            <code class="language-python">
+            print("Hello, World!")
+            def add(a, b):
+                return a + b
+            </code>
+        </pre>
+    </div>
+
+    <!--Java Code-->
+    <div>
+        <h2>Java Code Example</h2>
+        <pre>
+            <code class="language-java">
+        public class HelloWorld {
+            public static void main(String[] args) {
+                System.out.println("Hello, World!");
+            }
+        }
+            </code>
+        </pre>
+    </div>
+
+    <h1>📘 Project Documentation</h1>
+    <div id="content">
+        <p>loading...[updating]...</p>
+    </div>
+
+
 </body>
 </html>
