@@ -1,0 +1,44 @@
+-> https://devdocs.io
+
+-> https://git-scm.com/downloads
+
+-> https://github.com
+
+Structure : Shift + !
+Heading <h1>
+
+Git Basic Commands
+==================
+- install 
+- init
+- clone
+- commit msg
+- branch
+
+normal -> git file (consider)
+terminal -> (ctrl+`)
+
+U - untracked file
+A - 
+
+git file -> staging area
+
+- Single file
+- More file
+
+
+
+Commands Prompt (CMD)
+=====================
+1. git config --global user.name "<github_username>"
+2. git config --global user.email "<github_email>"
+
+3. git init
+
+Single file
+4. a) git add <file name>
+
+More file
+4. b) git add .
+
+5. git commit --m "file added"
